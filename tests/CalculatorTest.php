@@ -42,8 +42,8 @@ class CalculatorTest extends TestCase
 
     public function testSubtract()
     {
-        $value = $this->calc->subtract(4, 2);
-        $this->assertEquals($value, 2);
+        $value = $this->calc->subtract(5, 2);
+        $this->assertEquals($value, 3);
     }
 
     public function testNormalDivide()
